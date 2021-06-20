@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    background-color: #3F72AF;
+    font-family: "Indie Flower";
+}
+#header{
+    margin: 0;
+    background-color: #112D4E;
+    color: #F9F7F7;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.askQuestion{
+    margin: 1rem 0;
+    padding: 0;
+}
+.question{
+    margin: 0 0.5rem;
+    padding: 0;
+    height: auto;
+    line-height: auto;
+    display: inline-block;
+    font-weight: normal;
+    color: #DBE2EF;
+    font-size: 3rem;
+}
+.btn{
+    margin: 0 0.5rem;
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #112D4E;
+    border-radius: 100%;
+    font-size: 2rem;
+    padding: 0;
+    display: inline-block;
+}
+#yes{
+    background-color: #90ee90;
+    color: #112D4E;
+}
+#no{
+    background-color: #ff6961;
+    color: #112D4E;
+}
+.btn:hover{
+    box-shadow: 0 0 20px white;
+}
+.clicked{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.btnText{
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+}
+.monster_name{
+    color: #112D4E;
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+}
+.monster_image{
+    height: 25rem;
+}
